@@ -1,0 +1,128 @@
+* {
+    font-family: 'Iceland', cursive;
+}
+
+body {
+    background-image: url("../upload/Perso1-removebg-preview.png");
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: transparent;
+}
+
+.SEO {
+    font-size: 21px;
+    position: fixed;
+    top: 46%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: blanchedalmond;
+}
+
+.numbers {
+    color: rgb(199, 121, 20);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 90vh;
+    position: fixed;
+    bottom: 60px;
+    right: 0px;
+}
+
+h3 {
+    color: rgb(199, 121, 20);
+    font-size: 50px;
+    display: flex;
+    align-items: baseline;
+}
+
+.bloc {
+    color: rgb(199, 121, 20);
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 50px;
+    justify-content: center;
+    position: relative;
+    bottom: 10;
+    right: 10;
+}
+
+strong {
+    color: rgb(199, 121, 20);
+    justify-content: center;
+    display: flex;
+    font-size: 80px;
+    color: rgb(199, 121, 20);
+}
+
+em {
+    color: rgb(199, 121, 18);
+    display: flex;
+    justify-content: center;
+}
+
+.barDown {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    gap: 10px;
+    align-items: center;
+    bottom: 10px;
+}
+
+.drop {
+    height: 50px;
+}
+
+section {
+    width: 100%;
+    position: relative;
+    top: -20px;
+    float: left;
+    display: none;
+    opacity: 1.5;
+    animation-name: slide;
+    animation-duration: 2s;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    position: relative;
+    top: 20px;
+}
+
+div:hover section {
+    display: flex;
+}
+
+#soundButton {
+    position: fixed;
+    top: 100px;
+    right: 100px;
+}
+
+button {
+    background: none;
+    border: none;
+    width: 40px;
+    font-size: 40px;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1.5;
+    }
+}

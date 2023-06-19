@@ -1,0 +1,44 @@
+/* Style de base pour la navbar */
+.navbar {
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  /* Style du logo */
+  .navbar img {
+    float: left;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+  }
+  
+  /* Style des liens au milieu */
+  .navbar .middle-links {
+    text-align: center;
+  }
+  
+  .navbar .middle-links a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  /* Style des liens à droite */
+.navbar .right-links {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.navbar .right-links a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block; /* Modifier la valeur de display */
+  margin-right: 10px;
+}
+
